@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -22,5 +22,11 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), sans-serif;
+  background-color: #000000;
+  background-image: url('/images/g-pic.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: auto;
+  opacity: 1;
 }
